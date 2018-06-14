@@ -1,0 +1,37 @@
+<layout mode="Details">
+  <match>
+    CalcResult (this)
+  </match>
+  <content>
+    <ul>
+      <li>{{this}}</li>
+      <li>{{this.value1}}</li>
+      <li>{{this.operator}}</li>
+      <li>{{this.value2}}</li>
+    </ul>
+    <p class="result">Result: {{this.result}}</p>
+  </content>
+  <style>
+    
+    ul, li{  
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul li{
+      display: inline;
+      font-size: $font_large;
+      color: $white;
+      background-color: green;
+      padding: 5px;
+      margin: 5px;
+    }
+    
+    .values, .result{
+      margin: 10px;
+      font-size: $font_large;
+      background-color: red
+    }
+    
+  </style>
+</layout>

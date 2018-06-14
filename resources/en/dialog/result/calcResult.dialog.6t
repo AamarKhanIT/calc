@@ -1,0 +1,11 @@
+dialog (Result) {
+  match: CalcResult(this)
+
+if (this.result < 10) {
+    template("The result is #{value(this.result)}")
+
+  } else {
+    template("Larger than....")
+  
+  }
+}

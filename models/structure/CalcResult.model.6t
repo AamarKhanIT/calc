@@ -1,0 +1,23 @@
+structure (CalcResult) {
+  description (The result object produced from the Calculate model)
+  property (value1) {
+    type(Value1)
+    min (Required)
+    max (One)
+  }
+  property (value2) {
+    type (Value2)
+    min (Required)
+    max (One)
+  }
+  property (result){
+    type (Result)
+    min (Optional)
+    max (One)
+  }
+  property (operator) {
+    type (Operator)
+    min (Optional)
+    max (One)
+  }
+}

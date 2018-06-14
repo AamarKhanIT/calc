@@ -1,0 +1,114 @@
+action (Calculate) {
+  description (Description of the inputs into the app?)
+  type(Calculation)
+  collect {
+    input (value1) {
+      type (Value1)
+      min (Required) 
+      max (One)
+      default-init{
+        intent{
+          goal{Value1}
+          value{
+            Value1(1)
+          }
+        }
+      } 
+      validate{
+        if (value1 < 1) {
+          prompt{
+            dialog{
+              template ("Enter another first number")
+            }
+          }
+        }
+      }
+    }
+    
+    input (value2){ 
+      type (Value2)
+      min (Required)
+      max (One)
+      default-init{
+        intent{
+          goal{Value2}
+          value{
+            Value2(1)
+          }
+        }
+      }
+      validate{
+        if (value2 < 1) {
+          prompt{
+            dialog{
+              template ("Enter another second number")
+            }
+          }
+        }
+      }
+    }
+    input (someAction) {
+      type (Operator)
+      min (Optional)
+      max (One)
+      default-init{
+        intent{
+          goal{Operator}
+          value{
+            Operator(Plus)
+          }
+        }
+      }
+    }
+    
+    // input (result) {
+    //   type (Result)
+    //   min (Required)
+    //   max (One)
+    //   validate{
+    //     if(result > 10) {
+    //       prompt{
+    //         dialog{
+    //           template ("More than 10")
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+
+  }
+  output (CalcResult){
+    throws {
+      // error (Error1) {
+      //   on-catch {
+      //     halt {
+      //       dialog {
+      //         template ("Error 1 handled")
+      //       }
+      //     }
+      //   }
+      // }
+      unknown-error {
+      on-catch {
+        prompt (value1) {
+          min (1) 
+          max(10)
+          mode (Replace)
+        }
+      }
+        // on-catch {
+        //   // halt {
+        //   //   dialog {
+        //   //     template ("An unexpected error occurred - please try again.")
+        //   //   }
+        //   // }
+        //   prompt{
+        //     dialog{
+        //       template ("Enter another second number")
+        //     }
+        //   }
+        // }
+      }
+    }
+  }
+}

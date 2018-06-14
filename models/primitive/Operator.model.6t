@@ -1,0 +1,7 @@
+enum (Operator) {
+  description (Model for Operator)
+  symbol(Plus)
+  symbol(Minus)
+  symbol (Multiply)
+  symbol (Divide)
+}

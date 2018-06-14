@@ -1,0 +1,9 @@
+description {
+  name (calculator)
+  displayName (Calculator)
+  companyName (Samsung Electronics Co., Ltd.)
+  iconUrl (/images/icons/calculator.png)
+  description (Practise calc)
+  websiteUrl (http://bixby.samsung.com/)
+  androidAppId (com.sec.android.app.popupcalculator)
+}

@@ -1,0 +1,11 @@
+endpoints {
+   authorization {
+     none
+   }
+   action-endpoints {
+     action-endpoint (Calculate) {
+       accepted-inputs (value1, value2, someAction)
+       local-endpoint (Calculate.js)
+     }
+   }
+}

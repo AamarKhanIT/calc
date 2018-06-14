@@ -1,0 +1,8 @@
+train (t-87ccyrc0eet8bpgeo544mg8ci) {
+  utterance ("[g:viv.calc.CalcResult] (10)[v:viv.calc.Value1] (Minus)[v:viv.calc.Operator:Minus] (2)[v:viv.calc.Value2]")
+  plan (Y2BlEC7LLNNLTsxJ1nMGEkGpxaU5JQxCKIKlOYklqQyCcDH/gtSixJL8IgZ+uFBYYk5pqiG6gBEDCwMjAxMDM5BmALIgEAZAYlA5AA==)
+}
+train (t-8rbphsn2y702gz5v4lfnfmi7l) {
+  utterance ("[g:viv.calc.CalcResult] (Divide)[v:viv.calc.Operator:Divide] (6)[v:viv.calc.Value1] by (2)[v:viv.calc.Value2]")
+  plan (Y2BlEC7LLNNLTsxJ1nMGEkGpxaU5JQxCKIKlOYklqQyCcDH/gtSixJL8IgZ+uFBYYk5pqiG6gBEDCwMjAxMDM5BmALIgEAZAYlA5AA==)
+}

@@ -1,0 +1,4 @@
+train (t-iyws1d7zn0nt35db025l48afn) {
+  utterance ("[g:viv.calc.CalcResult] (Add)[v:viv.calc.Operator:Plus] (5)[v:viv.calc.Value1] to (8)[v:viv.calc.Value2]")
+  plan (Y2BlEC7LLNNLTsxJ1nMGEkGpxaU5JQxCKIKlOYklqQyCcDH/gtSixJL8IgZ+uFBYYk5pqiG6gBEDCwMjAxMDM5BmALIgEAZAYlA5AA==)
+}

@@ -1,0 +1,4 @@
+train (t-6uxgzi5jtkh56lvbm260xbso7) {
+  utterance ("[g:viv.calc.CalcResult] (Minus)[v:viv.calc.Operator:Minus] (2)[v:viv.calc.Value2] from (3)[v:viv.calc.Value1]")
+  plan (Y2BlEC7LLNNLTsxJ1nMGEkGpxaU5JQxCKIKlOYklqQyCcDH/gtSixJL8IgZ+uFBYYk5pqiG6gBEDCwMjAxMDM5BmALIgEAZAYlA5AA==)
+}

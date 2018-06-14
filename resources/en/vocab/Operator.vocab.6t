@@ -1,0 +1,23 @@
+vocab (Operator) {
+  "Plus" {
+    "Plus" 
+    "add" 
+    "sum"
+  }
+  "Minus" {
+    "Minus" 
+    "subtract" 
+    "remove" 
+    "difference"
+  }
+  "Multiply" {
+    "Multiply" 
+    "times" 
+    "multiplied" 
+    "product"
+  }
+  "Divide" {
+    "Divide" 
+    "divided"
+  }
+}
